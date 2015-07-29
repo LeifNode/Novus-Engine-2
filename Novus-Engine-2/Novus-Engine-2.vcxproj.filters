@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{cbeb9cda-4eae-4f30-bf2c-d9f42eebb035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{3e2eb2d7-00d9-43a0-a1a1-aa630fdf3cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{f6482d59-4df5-4d5f-9acc-7f6f57c9f397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{646ee327-7a98-4e08-8744-1325312688a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{f765caa3-d670-439e-9462-a50171cf3407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Net">
+      <UniqueIdentifier>{ede0b22f-446c-44b1-8c49-a473c14c6fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Memory">
+      <UniqueIdentifier>{8e252a19-5fc9-4d93-9936-24d7c4764eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Logging">
+      <UniqueIdentifier>{66f63953-521d-45d4-ac8c-7a459ce4d61c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Delegates">
+      <UniqueIdentifier>{e70a9791-a5e0-4195-bb9c-b18cc0c7e6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application">
+      <UniqueIdentifier>{97d526e5-7260-412d-a17d-b3d6acb156af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{7c6b69d7-705e-49ee-9850-709cd1176f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{3c190d8e-ea16-4c51-8684-0b26e26a45fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Platform">
+      <UniqueIdentifier>{234e5182-9c90-4110-b09b-23ef24f30b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{c503d9a3-d8b4-4f85-918f-8614e95c3148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Threading">
+      <UniqueIdentifier>{114538f4-6c0c-4a7a-a305-d3f91c032c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Threading\Fibers">
+      <UniqueIdentifier>{d9fce86f-daea-43aa-9f01-5b198c79425b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Files">
+      <UniqueIdentifier>{7eb32eca-7dd6-49a0-bc2f-c619642fbe44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Profiling">
+      <UniqueIdentifier>{a3d94e5f-ae44-4bc3-85b6-6f7e6d3195ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Metadata">
+      <UniqueIdentifier>{eac98f91-86bf-4765-9406-d9bfcaaff8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{6b7cfcf1-10d4-4b1e-8c43-0d95b4cb758a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Audio">
+      <UniqueIdentifier>{be0c6237-84bd-48c6-ad56-6515164a8592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Config">
+      <UniqueIdentifier>{c62a814e-5569-4308-9e55-8d3b12b4f071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Font">
+      <UniqueIdentifier>{dfb18057-42b4-49e7-965e-63debd600a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Mesh">
+      <UniqueIdentifier>{27604312-78fb-4f2a-9123-32867e6a301b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Shader">
+      <UniqueIdentifier>{f82bcb5d-3ecd-4f79-9769-b636749248ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Texture">
+      <UniqueIdentifier>{7e0ea503-2f24-45e2-a2da-e21e054d6736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\RHI">
+      <UniqueIdentifier>{8b8aaae6-9019-48dc-80bd-ce2fdca6d3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\RHI\D3D11">
+      <UniqueIdentifier>{19b1c3dc-be07-40cd-9977-20ca1af7ffff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\RHI\D3D12">
+      <UniqueIdentifier>{d217b1e4-a6fc-4d1f-882b-1fa14424a8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\RHI\GL4">
+      <UniqueIdentifier>{499a523f-dad7-4d7b-86f5-cc1cb363d83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\RHI\GLES3">
+      <UniqueIdentifier>{4f91b01c-b3f6-4522-8216-0a87a8bb821e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Hashing">
+      <UniqueIdentifier>{68ce7d8d-c60e-4364-9626-4ab3a1f1277d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Texture\DDS">
+      <UniqueIdentifier>{1e65893a-e4fb-4d35-a68c-5056872f6409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Geometry">
+      <UniqueIdentifier>{cbfb7a71-4509-46ef-b71c-45d482665f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Graphics">
+      <UniqueIdentifier>{86d97244-07bb-4bc9-b605-446af77a1c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Object Proxies">
+      <UniqueIdentifier>{91aad5c7-a75f-421b-859c-698596373d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input\Devices">
+      <UniqueIdentifier>{b0ac63f2-9e8c-4835-a50a-45ac30bd643f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Shader\D3D12">
+      <UniqueIdentifier>{2221ce38-85ca-4e36-b18f-7af1033636ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Primitives">
+      <UniqueIdentifier>{1b9ba7cd-bf5b-42e2-914c-decffedc03c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Utility\Platform\IApplicationWindow.h">
+      <Filter>Source Files\Utility\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Vector2.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Vector3.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Vector4.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Matrix4.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Matrix3.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Quaternion.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Platform\WindowsApplicationWindow.h">
+      <Filter>Source Files\Utility\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Profiling\Timer.h">
+      <Filter>Source Files\Utility\Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Delegates\MulticastDelegate.h">
+      <Filter>Source Files\Utility\Delegates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Logging\Logger.h">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Logging\ILogSerializer.h">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Logging\ConsoleLogSerializer.h">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Memory\Memory.h">
+      <Filter>Source Files\Utility\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Memory\MallocTracker.h">
+      <Filter>Source Files\Utility\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\InputSystem.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RHI\RHICommandList.h">
+      <Filter>Source Files\Rendering\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Metadata\Metadata.h">
+      <Filter>Source Files\Utility\Metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Hashing\SHA1.h">
+      <Filter>Source Files\Utility\Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Platform\PlatformDefines.h">
+      <Filter>Source Files\Utility\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RHI\RHIResources.h">
+      <Filter>Source Files\Rendering\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RHI\D3D12\D3D12RHIResources.h">
+      <Filter>Source Files\Rendering\RHI\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RHI\RHIDevice.h">
+      <Filter>Source Files\Rendering\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\Texture\DDS\DDSTextureLoader.h">
+      <Filter>Source Files\Resources\Texture\DDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Geometry\GeometryGenerator.h">
+      <Filter>Source Files\Utility\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Math.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Graphics\D3D12BufferPool.h">
+      <Filter>Source Files\Utility\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RenderTarget.h">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RenderView.h">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Transform.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Devices\IInputDevice.h">
+      <Filter>Source Files\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Devices\KeyboardDevice.h">
+      <Filter>Source Files\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Devices\MouseDevice.h">
+      <Filter>Source Files\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\Shader\Shader.h">
+      <Filter>Source Files\Resources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\Shader\D3D12\D3D12Shader.h">
+      <Filter>Source Files\Resources\Shader\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\Shader\D3D12\D3D12LocalInclude.h">
+      <Filter>Source Files\Resources\Shader\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Primitives\Ray.h">
+      <Filter>Source Files\Math\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Primitives\Rectangle.h">
+      <Filter>Source Files\Math\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Primitives\Sphere.h">
+      <Filter>Source Files\Math\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Primitives\Box.h">
+      <Filter>Source Files\Math\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Primitives\Plane.h">
+      <Filter>Source Files\Math\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Primitives\LineSegment.h">
+      <Filter>Source Files\Math\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Camera.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Delegates\Delegate.h">
+      <Filter>Source Files\Utility\Delegates</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Utility\Platform\WindowsApplicationWindow.cpp">
+      <Filter>Source Files\Utility\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Profiling\Timer.cpp">
+      <Filter>Source Files\Utility\Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Logging\Logger.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Logging\ConsoleLogSerializer.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Memory\Memory.cpp">
+      <Filter>Source Files\Utility\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Memory\MallocTracker.cpp">
+      <Filter>Source Files\Utility\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Hashing\SHA1.cpp">
+      <Filter>Source Files\Utility\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\Texture\DDS\DDSTextureLoader.cpp">
+      <Filter>Source Files\Resources\Texture\DDS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Geometry\GeometryGenerator.cpp">
+      <Filter>Source Files\Utility\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\Math.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\RHI\D3D12\D3D12RHIResourceHeap.cpp">
+      <Filter>Source Files\Rendering\RHI\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Graphics\D3D12BufferPool.cpp">
+      <Filter>Source Files\Utility\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\RHI\D3D12\D3D12RHIDescriptorHeap.cpp">
+      <Filter>Source Files\Rendering\RHI\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\Shader\Shader.cpp">
+      <Filter>Source Files\Resources\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\Shader\D3D12\D3D12Shader.cpp">
+      <Filter>Source Files\Resources\Shader\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\Shader\D3D12\D3D12LocalInclude.cpp">
+      <Filter>Source Files\Resources\Shader\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\RenderView.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A6BFDD40-1446-4185-9AC6-2AFBBFCC300F}</ProjectGuid>
+    <RootNamespace>NovusEngine2</RootNamespace>
+    <TargetPlatformVersion>10.0.10069.0</TargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)Lib\$(PlatformShortName)\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>Novusd</TargetName>
+    <IncludePath>$(ProjectDir)Source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)Lib\$(PlatformShortName)\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>Novusd</TargetName>
+    <IncludePath>$(ProjectDir)Source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)Lib\$(PlatformShortName)\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(ProjectDir)Source;$(IncludePath)</IncludePath>
+    <TargetName>Novus</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)Lib\$(PlatformShortName)\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(ProjectDir)Source;$(IncludePath)</IncludePath>
+    <TargetName>Novus</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_DEBUG;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_DEBUG;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Input\Devices\IInputDevice.h" />
+    <ClInclude Include="Source\Input\Devices\KeyboardDevice.h" />
+    <ClInclude Include="Source\Input\Devices\MouseDevice.h" />
+    <ClInclude Include="Source\Input\InputSystem.h" />
+    <ClInclude Include="Source\Math\Camera.h" />
+    <ClInclude Include="Source\Math\Math.h" />
+    <ClInclude Include="Source\Math\Matrix3.h" />
+    <ClInclude Include="Source\Math\Matrix4.h" />
+    <ClInclude Include="Source\Math\Primitives\Box.h" />
+    <ClInclude Include="Source\Math\Primitives\LineSegment.h" />
+    <ClInclude Include="Source\Math\Primitives\Plane.h" />
+    <ClInclude Include="Source\Math\Primitives\Ray.h" />
+    <ClInclude Include="Source\Math\Primitives\Rectangle.h" />
+    <ClInclude Include="Source\Math\Primitives\Sphere.h" />
+    <ClInclude Include="Source\Math\Quaternion.h" />
+    <ClInclude Include="Source\Math\Transform.h" />
+    <ClInclude Include="Source\Math\Vector2.h" />
+    <ClInclude Include="Source\Math\Vector3.h" />
+    <ClInclude Include="Source\Math\Vector4.h" />
+    <ClInclude Include="Source\Rendering\RenderView.h" />
+    <ClInclude Include="Source\Rendering\RenderTarget.h" />
+    <ClInclude Include="Source\Rendering\RHI\D3D12\D3D12RHIResources.h" />
+    <ClInclude Include="Source\Rendering\RHI\RHICommandList.h" />
+    <ClInclude Include="Source\Rendering\RHI\RHIDevice.h" />
+    <ClInclude Include="Source\Rendering\RHI\RHIResources.h" />
+    <ClInclude Include="Source\Resources\Shader\D3D12\D3D12LocalInclude.h" />
+    <ClInclude Include="Source\Resources\Shader\D3D12\D3D12Shader.h" />
+    <ClInclude Include="Source\Resources\Shader\Shader.h" />
+    <ClInclude Include="Source\Resources\Texture\DDS\DDSTextureLoader.h" />
+    <ClInclude Include="Source\Utility\Delegates\Delegate.h" />
+    <ClInclude Include="Source\Utility\Delegates\MulticastDelegate.h" />
+    <ClInclude Include="Source\Utility\Geometry\GeometryGenerator.h" />
+    <ClInclude Include="Source\Utility\Graphics\D3D12BufferPool.h" />
+    <ClInclude Include="Source\Utility\Hashing\SHA1.h" />
+    <ClInclude Include="Source\Utility\Logging\ConsoleLogSerializer.h" />
+    <ClInclude Include="Source\Utility\Logging\ILogSerializer.h" />
+    <ClInclude Include="Source\Utility\Logging\Logger.h" />
+    <ClInclude Include="Source\Utility\Memory\MallocTracker.h" />
+    <ClInclude Include="Source\Utility\Memory\Memory.h" />
+    <ClInclude Include="Source\Utility\Metadata\Metadata.h" />
+    <ClInclude Include="Source\Utility\Platform\IApplicationWindow.h" />
+    <ClInclude Include="Source\Utility\Platform\PlatformDefines.h" />
+    <ClInclude Include="Source\Utility\Platform\WindowsApplicationWindow.h" />
+    <ClInclude Include="Source\Utility\Profiling\Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Math\Math.cpp" />
+    <ClCompile Include="Source\Rendering\RenderView.cpp" />
+    <ClCompile Include="Source\Rendering\RHI\D3D12\D3D12RHIDescriptorHeap.cpp" />
+    <ClCompile Include="Source\Rendering\RHI\D3D12\D3D12RHIResourceHeap.cpp" />
+    <ClCompile Include="Source\Resources\Shader\D3D12\D3D12LocalInclude.cpp" />
+    <ClCompile Include="Source\Resources\Shader\D3D12\D3D12Shader.cpp" />
+    <ClCompile Include="Source\Resources\Shader\Shader.cpp" />
+    <ClCompile Include="Source\Resources\Texture\DDS\DDSTextureLoader.cpp" />
+    <ClCompile Include="Source\Utility\Geometry\GeometryGenerator.cpp" />
+    <ClCompile Include="Source\Utility\Graphics\D3D12BufferPool.cpp" />
+    <ClCompile Include="Source\Utility\Hashing\SHA1.cpp" />
+    <ClCompile Include="Source\Utility\Logging\ConsoleLogSerializer.cpp" />
+    <ClCompile Include="Source\Utility\Logging\Logger.cpp" />
+    <ClCompile Include="Source\Utility\Memory\MallocTracker.cpp" />
+    <ClCompile Include="Source\Utility\Memory\Memory.cpp" />
+    <ClCompile Include="Source\Utility\Platform\WindowsApplicationWindow.cpp" />
+    <ClCompile Include="Source\Utility\Profiling\Timer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
